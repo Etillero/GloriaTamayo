@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amarres y Endulzamientos">
+    <title>Amarres y Retornos De Amor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        header {
+            position: relative;
+            background: #111;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+            padding: 10px;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        nav a:hover {
+            background-color: #333;
+        }
+        .header-img {
+            margin-top: 50px; /* Esto deja espacio para el nav */
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        } 
+        .highlight {
+            color: red;
+            font-size: 36px;
+            font-weight: bold;
+            
+        }
+
+        .content {
+            font-size: 24px;
+            color: #333;
+        }
+        .cta {
+            font-size: 26px;
+            font-weight: bold;
+            color: #92150c;
+            cursor: progress;
+            font-size: 26px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .blink {
+  text-decoration: none;
+  color: #25D366; /* Color verde típico de WhatsApp */
+  font-weight: bold;
+  animation: blinker 1s linear infinite;
+  cursor: pointer;
+ }
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+        section {
+            padding: 20px;
+        }
+        #about, #services, #contact {
+            padding: 40px;
+            background: #111;
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(218, 204, 204, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            background: #111;
+            color: #fff;
+            padding: 10px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service-item {
+            background-color: #050505;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            max-width: 750px;
+            text-align: center;
+        }
+        .service-item img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .service-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .service-description {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        #whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+        }
+        #whatsapp-btn:hover {
+            background-color: #20bf5d;
+        }
+    
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .content-item {
+            width: 30%;
+            text-align: center;
+        }
+
+        .content-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-title {
+            font-size: 1.5em;
+            color: red;
+            margin-top: 10px;
+        }
+
+        .content-description {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#about">Inicio</a>
+            <a href="#services">Servicios</a>
+        </nav>
+        <!-- Espacio para la imagen -->
+        <img src="image/header.png" alt="Imagen de velas" class="header-img">
+    </header>
+
+    <section id="about">
+        <div class="highlight">¿Sientes que el amor se desvanece?</div>
+    <p class="content">
+        Recupera la conexión perdida. Atrae a esa persona especial y Fortalece el vínculo que creías irrompible.
+    </p>
+    <p class="blink" onclick="window.location.href='https://api.whatsapp.com/send/?phone=541159133430&text&type=phone_number&app_absent=0'">¡Encuentra el empleo soñado y abre tus caminos economicos!</p>
+    </section>
+
+    <section id="services">
+        <h2>Servicios</h2>
+       <!-- Servicio 1: Endulzamientos -->
+       <div class="service-item">
+        <img src="image/endulzamientos.png" alt="Endulzamientos">
+        <div class="service-title">Endulzamientos</div>
+        <p class="service-description">Recupera la dulzura y armonía en tu relación con un poderosos endulzamiento que tendra a esa persona loca por tu amor.</p>
+    </div>
+
+    <!-- Servicio 2: Rituales y Hechizos -->
+    <div class="service-item">
+        <img src="image/ritualesyhechizos.png" alt="Rituales y Hechizos">
+        <div class="service-title">Rituales y Hechizos</div>
+        <p class="service-description">Protege y potencia tu vida, encuentra ese trabajo soñado, has que tu familia este mas unida, tus caminos con rituales y hechizos únicos.</p>
+    </div>
+
+    <!-- Servicio 3: Amarres de Amor -->
+    <div class="service-item">
+        <img src="image/amarresdeamor.png" alt="Amarres de Amor">
+        <div class="service-title">Amarres de Amor</div>
+        <p class="service-description">Fortalece el lazo con tu ser amado con nuestros poderosos amarres de amor garantizando el regreso de ese ser amado.</p>
+    </div>
+    </section>
+    <div class="highlight">Testimonios</div>
+    <div class="content-container">
+        <div class="content-item">
+            <img src="image/testimonio1.jpg" alt="Amarres de Amor">
+            <div class="content-title"></div>
+            <p class="content-description"></p>
+        </div>
+        <div class="content-item">
+            <img src="image/testimonio 3.jpg" alt="Lectura de Tarot">
+            <div class="content-title"></div>
+            <p class="content-description"></p>
+        </div>
+        <div class="content-item">
+            <img src="image/testimonio 2.jpg" alt="Lectura de Tarot">
+            <div class="content-title"></div>
+            <p class="content-description"></p>
+        </div>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Amarres y Enduzamientos | Todos los derechos reservados.</p>
+    </footer>
+
+    
+    <a id="whatsapp-btn" href="https://wa.me/541159133430" target="_blank">Consultame al WhatsApp</a>
+  
+
+</body>
+</html>
